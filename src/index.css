@@ -153,7 +153,7 @@ All colors MUST be HSL.
   }
   
   .hero-text-item {
-    @apply absolute inset-0 opacity-0;
+    @apply absolute top-0 left-0 w-full opacity-0;
     background: var(--gradient-primary);
     -webkit-background-clip: text;
     background-clip: text;
@@ -161,7 +161,7 @@ All colors MUST be HSL.
     animation: textWipe 4s infinite;
   }
   
-  .hero-text-item.active {
+  .hero-text-item:nth-child(1) {
     animation-delay: 0s;
   }
   
