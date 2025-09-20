@@ -26,11 +26,10 @@ const HeroSection = () => {
             <h1 className="text-hero">
               REDEFINING
               <br />
-              <span className="bg-gradient-primary bg-clip-text text-transparent">
-                PRINTING
+              <span className="hero-text-cycle">
+                <span className="hero-text-item active">PRINTING</span>
+                <span className="hero-text-item">& SIGNAGE</span>
               </span>
-              <br />
-              & SIGNAGE
               <br />
               <span className="text-muted-foreground text-6xl md:text-7xl lg:text-8xl">
                 IN MALAYSIA

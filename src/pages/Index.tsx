@@ -5,10 +5,12 @@ import AboutSection from '@/components/AboutSection';
 import PortfolioSection from '@/components/PortfolioSection';
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
+import MouseCursor from '@/components/MouseCursor';
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
+      <MouseCursor />
       <Navigation />
       <main>
         <HeroSection />

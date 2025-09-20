@@ -144,6 +144,30 @@ All colors MUST be HSL.
   .glow-effect:hover {
     box-shadow: var(--shadow-glow);
   }
+  
+  /* Hero Text Cycling Animation */
+  .hero-text-cycle {
+    @apply relative inline-block;
+    height: 1.2em;
+    overflow: hidden;
+  }
+  
+  .hero-text-item {
+    @apply absolute inset-0 opacity-0;
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textWipe 4s infinite;
+  }
+  
+  .hero-text-item.active {
+    animation-delay: 0s;
+  }
+  
+  .hero-text-item:nth-child(2) {
+    animation-delay: 2s;
+  }
 }
 
 @layer utilities {
@@ -194,5 +218,28 @@ All colors MUST be HSL.
   to {
     opacity: 1;
     transform: scale(1);
+  }
+}
+
+@keyframes textWipe {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  10% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  40% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-100%);
   }
 }

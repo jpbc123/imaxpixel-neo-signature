@@ -23,9 +23,8 @@ const Navigation = () => {
     >
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-primary rounded-md"></div>
-            <span className="text-2xl font-bold tracking-tight">IMAX PIXEL</span>
+          <div className="flex items-center space-x-3">
+            <img src="/src/assets/imax-logo.png" alt="IMAX PIXEL" className="h-10 w-auto" />
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
