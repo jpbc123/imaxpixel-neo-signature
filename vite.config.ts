@@ -7,7 +7,7 @@ export default defineConfig(({ mode }) => {
 
   return {
     // The base path must be '/' for Vercel deployments.
-    base: '/',
+    base: env.VITE_BASE_PATH || '/',
     server: {
       port: 8080,
     },
