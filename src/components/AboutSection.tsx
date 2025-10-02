@@ -144,11 +144,11 @@ const AboutSection = () => {
               data-element="content"
             >
               <p>
-                Established with a vision to revolutionize the printing and signage industry in Malaysia, IMAX PIXEL has grown to become the trusted partner for businesses seeking premium quality and innovative solutions.
+                Our story began in 2008 in Selangor, Malaysia. iMax Pixel Sdn Bhd was born to cater to all major printing solutions, specializing in Digital Inkjet Printing, UV Inkjet Printing and other media support for all advertising uses.
               </p>
               
               <p>
-                Our state-of-the-art facility in Klang combines cutting-edge technology with skilled craftsmanship, ensuring every project meets the highest standards of quality and durability.
+				Where visibility and branding are the keys to your business, at iMax Pixel, we print possibilities, fabricate imaginations, and bring branding visibility to a whole new level. Responding to the demand for vibrant colors and eye-catching graphics in advertising, iMax Pixel gives you the highest quality inkjet products including Banners, Buntings, Large Format Stickers, Roll Up Stands, Billboards, Signboards, Posters, Lightboard Displays, Wall Murals, Backdrops, Wallpaper, Vehicle Graphics, Hoardings, Building Coverings and many more.
               </p>
               
               <p>

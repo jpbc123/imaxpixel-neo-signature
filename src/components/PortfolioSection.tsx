@@ -13,7 +13,7 @@ const projects = [
   },
   {
     image: portfolio2,
-    title: "Digital LED Display",
+    title: "3D LED Display",
     category: "LED Displays",
     description: "State-of-the-art LED display installation for retail environment with dynamic content capabilities."
   },
