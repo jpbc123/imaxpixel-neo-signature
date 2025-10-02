@@ -6,8 +6,8 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), "");
 
   return {
-    // The base path must be '/' for Vercel deployments.
-    base: '/imaxpixel-neo-signature/',
+    // Use root path for dev, subdirectory for production
+    base: mode === 'development' ? '/' : '/imaxpixel-neo-signature/',
     server: {
       port: 8080,
     },
@@ -19,8 +19,7 @@ export default defineConfig(({ mode }) => {
       },
     },
     build: {
-      outDir: '.',
-      emptyOutDir: false,
+      outDir: 'dist',
       sourcemap: false,
       minify: "esbuild",
       // Ensure proper handling of assets
