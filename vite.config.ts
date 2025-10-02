@@ -7,7 +7,7 @@ export default defineConfig(({ mode }) => {
 
   return {
     // The base path must be '/' for Vercel deployments.
-    base: env.VITE_BASE_PATH || '/',
+    base: '/imaxpixel-neo-signature/',
     server: {
       port: 8080,
     },
@@ -19,6 +19,8 @@ export default defineConfig(({ mode }) => {
       },
     },
     build: {
+      outDir: '.',
+      emptyOutDir: false,
       sourcemap: false,
       minify: "esbuild",
       // Ensure proper handling of assets
